@@ -39,7 +39,7 @@ html{
  /* Navigation Starts */
 
 
-  .navigation{
+ .navigation{
    padding: 2% 1%;
    color: #314584;
    position: relative;
@@ -458,6 +458,10 @@ footer{
     padding: 7% 1% 5% 1%;
   }
 
+  .box h1{
+    font-size: 3.5rem;
+  }
+
   .box1{
     padding-top: 25px;
   }
@@ -489,6 +493,7 @@ footer{
   .two-box h2, .three-section h2{
     padding: 5px;
   }
+  
   
   .banner-images, .about{
     width: 80%;
@@ -557,6 +562,10 @@ footer{
     padding: 30px 15px;
   }
 
+  .box h1{
+    font-size: 2.5rem;
+  }
+
 }
 
 @media only screen and (max-width:350px){
@@ -608,6 +617,10 @@ footer{
   .social{
     font-size: 0.9rem;
     padding: 30px 15px;
+  }
+
+  .box h1{
+    font-size: 1.5rem;
   }
 
 }
