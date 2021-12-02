@@ -423,7 +423,7 @@ footer{
 }
 
 .social{
-  font-size: 2.7rem;
+  font-size: 1.7rem;
   padding: 30px 35px;
 }
 .map{
@@ -510,6 +510,12 @@ footer{
     letter-spacing: 3px;
     padding-left: 10px;
   }
+
+  .social{
+    font-size: 1.1rem;
+    padding: 30px 15px;
+  }
+
 }
 
 
@@ -545,9 +551,15 @@ footer{
     letter-spacing: 3px;
     padding-left: 10px;
   }
+
+  .social{
+    font-size: 1rem;
+    padding: 30px 15px;
+  }
+
 }
 
-@media only screen and (max-width:410px){
+@media only screen and (max-width:350px){
 
   .box1{
     padding-top: 50px;
@@ -592,6 +604,12 @@ footer{
     letter-spacing: 3px;
     padding-left: 70px;
   }
+
+  .social{
+    font-size: 0.9rem;
+    padding: 30px 15px;
+  }
+
 }
 
 
