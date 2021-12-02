@@ -172,6 +172,24 @@
             <span class="fa fa-twitter social"></span>
             <span class="fa fa-pinterest social"></span>
            </div>
+         <button id="btnScrollToTop">
+            <a href="index.html"><i class="far fa-hand-paper"></i></a>
+          </button>
+         <script>
+            const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        
+            btnScrollToTop.addEventListener("click", function(){
+                // window.scrollTo(0,0);
+        
+                // window.scrollTo({
+                //      top:50,
+                //      left: 0,
+                //      behavior : "smooth"
+                // });
+        
+                $("html, body").animate({ scrollTop: 0}, "slow");
+            });
+          </script>
        </footer>
 
         <!-- Footer section ends here -->
