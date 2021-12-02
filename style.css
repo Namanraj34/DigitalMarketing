@@ -42,8 +42,7 @@ html{
   .navigation{
    padding: 2% 1%;
    color: #314584;
-   position: fixed;
-   background: rgba(225,225,225,0.2);
+   position: relative;
  }
 
  .logo-box{
